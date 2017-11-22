@@ -8,3 +8,10 @@ button.addEventListener('click', () => {
   main.openWindow()
 }, false)
 document.body.appendChild(button)
+
+var injectbutton = document.createElement('button')
+injectbutton.textContent = 'Inject'
+injectbutton.addEventListener('click', () => {
+  console.log("inject!")
+}, false)
+document.body.appendChild(injectbutton)
